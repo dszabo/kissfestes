@@ -466,6 +466,7 @@ h6 {
 	color: #010101;
 }
 
+
 .link:hover {text-decoration:underline;} 
 
 .link-1 {
@@ -601,6 +602,37 @@ dl span {float:left; width:82px;}
 				}
 		.buttons-wrapper { padding:9px 0 0 0; text-align:right;}
 		.buttons-wrapper a { margin-left:15px;}
+
+/*************** photo gallery **********************/
+
+.photos_g {
+  display: block;
+  margin-left: 15px;
+}
+
+.photos_g ul { list-style: none; }
+
+.photos_g ul li { display: inline; }
+
+.photos_g ul li a {
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  opacity: 0.75;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+.photos_g ul li a:hover {
+  opacity: 1.0;
+}
+
+.photos_g ul li a img {
+  border: 4px solid #cececd;
+}
+
 		
 /****************************footer************************/
 footer {
