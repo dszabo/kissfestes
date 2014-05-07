@@ -633,6 +633,38 @@ dl span {float:left; width:82px;}
   border: 4px solid #cececd;
 }
 
+
+/***************************partners***********************/
+.partners_g {
+  display: block;
+  margin-left: 15px;
+}
+
+.partners_g ul { list-style: none; }
+
+.partners_g ul li { display: inline; }
+
+.partners_g ul li a {
+  display: block;
+  float: left;
+  padding: 4px;
+  margin-right: 10px;
+  margin-bottom: 7px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: url(#greyscale);
+  filter: gray;
+  transition: 1s;
+}
+.partners_g ul li a:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+  filter: none;
+}
+
+.partners_g ul li a img {
+  border: 4px solid #cececd;
+}
 		
 /****************************footer************************/
 footer {
